@@ -1,0 +1,21 @@
+﻿@page
+<div class="container">
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <h4>Tracking</h4>
+            <div class="trackingSpace">
+                <table id="trackingList">
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">&nbsp;</div>
+        <div class="col-6">
+            <h4>Event stream</h4>
+            <pre style="height: 240px; width: 100%; overflow: scroll;" id="eventLog"></pre>
+        </div>
+    </div>
+</div>
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
